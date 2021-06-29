@@ -1,0 +1,42 @@
+body {
+  font-size: 16px;
+  color: rgb(19, 14, 14);
+  background-color: #b8c1c7;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+}
+
+.nav-item{
+  text-align: center;
+  margin:0;  
+  border-bottom:2px solid blanchedalmond;
+  border-radius: 130%;
+}
+h1{
+  margin-bottom:40px;
+}
+
+.nav-link:hover{
+  font-size: 1.2em;
+  background-color: rgb(80, 83, 83);
+  border-radius: 130%;
+  margin:auto;
+}
+
+section{
+  border: 2px solid rgb(236, 240, 236);
+  background-color: rgb(80, 83, 83);
+  
+  margin-right: 10 px;
+}
+.container p{
+  text-align: left;
+  font-size: 1.4em;
+}
+
+span a{
+  color:rgb(19, 14, 14);
+}
+
+
+

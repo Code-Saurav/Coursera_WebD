@@ -1,0 +1,199 @@
+body{
+  background-image: url(../images/ingmar-G-G_B8vEGow-unsplash.jpg);
+  background-color: rgb(207, 160, 252);
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  text-align:center;
+  
+}
+
+.navbar{
+  background-color: rgb(226, 219, 235); 
+}
+
+
+.navbar-brand{
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Monoton', cursive;
+  border: 2px solid #a1228f;;
+  border-radius: 10px;
+  
+}
+
+
+.navbar-light .navbar-brand {
+  color:#a1228f;;
+}
+
+#logo-img {
+  background: url(../images/parlour_logo-large.png) no-repeat;
+  width: 150px;
+  height: 150px;
+  margin:0;
+  
+} 
+.navbar-brand h1{
+
+  font-size:2 em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(26, 139, 86);
+  margin-top: 0;
+  margin-bottom:0;
+  line-height: .75;
+  padding-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: blueviolet;
+  font-size: 1.4em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: blueviolet;
+  font-size: 1.4em;
+  box-sizing: border-box;
+}
+
+.nav-item{
+  text-align: center;
+  
+  margin-left:2px; 
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 20px white;
+  border: 2px solid white;
+  margin-top: 30px;
+  margin-bottom:30px;
+  position:relative;
+}
+
+#service-tile, #stylists-tile, #gallery-tile, #about-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 2px solid whitesmoke;
+  overflow: hidden;
+  position:relative;
+  
+}
+
+#map-tile{
+  height: 350px;
+}
+
+#service-tile{
+  background-image: url('../images/services.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#stylists-tile{
+  background-image: url('../images/stylists.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#gallery-tile{
+  background-image: url('../images/gallery.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#about-tile {
+  background-image: url('../images/about.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+
+#service-tile span, #stylists-tile span, #gallery-tile span, #about-tile span, #map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: blueviolet;
+  color:white ;
+  opacity: .8;
+  
+}
+
+#service-tile:hover, #stylists-tile:hover, #gallery-tile:hover, #about-tile:hover,#map-tile:hover{
+  box-shadow:0 1px 5px 1px whitesmoke;
+}
+/* Panel-Footer */
+
+.panel-footer{
+  background-color: blueviolet;
+  height: 300px;
+}
+
+#hours p, #address p{ 
+  font-size: 1.4em;
+  font-weight: bold;
+  color:rgb(226, 219, 235);
+}
+
+#hours span, #address span{
+  color:rgb(226, 219, 235);
+  margin-bottom: 2px;
+}
+
+#feedback p{
+  font-style: italic;
+  color:rgb(226, 219, 235);
+}
+
+
+
+.btn{
+  position:absolute;
+  border-radius: 0;
+  color:white;
+  background-color: blueviolet;
+  opacity: 0.8;
+  bottom:0;
+  right:0;
+  height:80px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+
+#secondary{
+font-size:0.7em;
+color:green;
+}
+
+.social-media a{
+  font-size: 30px;
+  text-decoration: none;
+  background-color:none;
+  color:rgb(226, 219, 235);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+body {
+  font-size: 16px;
+  color: rgb(19, 14, 14);
+  background-color: #b8c1c7;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.nav-item{
+  text-align: center;
+  margin:0;  
+  border-bottom:2px solid blanchedalmond;
+}
+
+.nav-link:hover{
+  font-size: 1.2em;
+  background-color: rgb(80, 83, 83);
+}
+
+
+.container p{
+  text-align: center;
+  font-size: 1.4em;
+}
+
+#chicken-description, #beef-description, #sushi-description{
+  border: 2px solid rgb(236, 240, 236);
+  background-color: rgb(80, 83, 83);
+}
+

@@ -1,0 +1,2 @@
+sauravGreeter.sayHello();
+sauravGreeter.sayHi();
